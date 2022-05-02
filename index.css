@@ -1,0 +1,130 @@
+body {
+  background-color: #1c1c1c;
+}
+
+.wrapper {
+  max-width: 550px;
+  max-width: 550px;
+  background-color: #1f2937;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper-description {
+  padding-right: 52px;
+  padding-left: 52px;
+}
+
+.description h1 {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.025em;
+  color: #ffffff;
+  margin-bottom: 5px;
+  margin-top: 118px;
+}
+
+.description span {
+  color: #55f991;
+}
+
+.description h3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #d5d4d8;
+  margin-top: 5px;
+  margin-bottom: 51px;
+}
+
+.button {
+  width: 223px;
+  height: 42px;
+  background: #10b981;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.ico_arrow {
+  background-image: url('./images/icon_button.svg');
+  width: 14px;
+  height: 18px;
+}
+
+.icon-square {
+  width: 20px;
+  height: 20px;
+  border-radius: 19px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.ico {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.line {
+  width: 446px;
+  height: 0px;
+  border: 1px solid #2f3e53;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.wrapper-output {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 26px;
+}
+.output {
+  width: 211px;
+  height: 39px;
+  background: #273549;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #55f991;
+}
+
+.icon-output {
+  width: 20px;
+  height: 5px;
+  border-radius: 19px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.ico_dots {
+  background-image: url('./images/icon.svg');
+  width: 20px;
+  height: 5px;
+}
+
+.hidden {
+  display: none;
+}
