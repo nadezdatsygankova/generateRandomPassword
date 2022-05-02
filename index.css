@@ -94,11 +94,27 @@ body {
 .wrapper-output {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
   margin-bottom: 26px;
 }
 .output {
-  width: 211px;
+  width: 320px;
+  height: 39px;
+  background: #273549;
+  border-radius: 6px;
+  text-align: center;
+  color: #55f991;
+  background-image: url(./images/icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hidden {
+  background-image: none;
+}
+
+.input {
+  width: 300px;
   height: 39px;
   background: #273549;
   border-radius: 6px;
@@ -106,25 +122,98 @@ body {
   justify-content: center;
   align-items: center;
   color: #55f991;
+  margin-bottom: 15px;
+  padding: 10px;
 }
 
-.icon-output {
-  width: 20px;
-  height: 5px;
-  border-radius: 19px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding-right: 10px;
-  padding-left: 10px;
+.input button {
+  width: 70px;
+  height: 32px;
+  background: #10b981;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-left: 15px;
 }
 
-.ico_dots {
-  background-image: url('./images/icon.svg');
-  width: 20px;
-  height: 5px;
+.button-save {
+  width: 70px;
+  height: 32px;
+  background: #10b981;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  cursor: pointer;
+  margin-left: 15px;
 }
 
-.hidden {
-  display: none;
+.input input {
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  margin-left: 10px;
+}
+
+.input label {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.popuptext {
+  visibility: hidden;
+  width: 400px;
+  /* background-color: #555; */
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.buttons-wrapper {
+  display: flex;
+  gap: 15px;
 }
