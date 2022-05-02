@@ -7,3 +7,7 @@ Generate Random Passwords
 2. Ability to set the password length
 3. 1-click copy password to the clipboard 
 4. Responsive design 
+
+
+https://nadezdatsygankova.github.io/generateRandomPassword/
+
