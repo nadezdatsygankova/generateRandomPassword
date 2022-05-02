@@ -239,4 +239,7 @@ input::-webkit-inner-spin-button {
   .wrapper {
     overflow-x: hidden;
   }
+  .popuptext {
+    text-align: start;
+  }
 }
